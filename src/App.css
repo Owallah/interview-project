@@ -1,0 +1,87 @@
+.product-list {
+  margin: 20px;
+}
+
+.product-items {
+  list-style: none;
+  padding: 0;
+}
+
+
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 1000px;
+  margin: 10px;
+  padding: 10px;
+  display: flex; 
+  align-items: center; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.image-section img {
+  max-width: 150px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.item-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.item-description {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.item-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.item-info #item_status {
+  color: green;
+
+}
+
+.increment-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.increment-section .increment, .decrement {
+  background-color: #eaeaea;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 40px;
+  color: black;
+  font-weight: 600;
+}
+
+.increment-section p {
+  width: 50px;
+  text-align: center;
+}
+
+.buttons-section {
+  margin-left: 10px;
+}
+
+.buttons-section button {
+  margin-top: 10px;
+  background: white;
+  color: #000;
+  border: solid 1px black;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
